@@ -1,0 +1,43 @@
+visual studio 2019 Community
+	workloads: .NET Core x-plat. dev.
+-Visual Studio Code
+-Git(for Windows)(terminal that behaves like linux)
+ - installs MSYS2 - pretends linux environments
+ - Git - use to keep track of our files 
+ non-default options(when asks for editor: nano(all other defaults are good)
+
+Mondays: Evaluations(quiz, coding challenge, 1-1 interviews & project time, QC audit
+Tuesdays-Thursday: Training
+Fridays: Sometimes extra training & project work
+
+
+dotnet syntax - "~" is home directory(one that is the same as my username)
+
+ls - list (prints out current directory)
+ls ~/Documents "go to document folder and list"
+
+first word is command, second is argument
+
+cd - change directory
+cd .. - go up one
+cd ~ - go to home directory
+cd /c - go to c drive
+mkdir - make directory(new folder) 
+
+tab completion - completes command 
+
+dotnet new console -o(option) HelloRevature(project name) - creates Program.cs and HelloRevature.csproj
+
+rm - remove files but but not folders
+rm -r(recursive option) HelloRevature/
+
+visual studio oldschool ide - takes a lot of memory
+visual studio code is more modern and faster
+
+dotnet restore - 
+dotnet build - compile project
+dotnet run - run project
+
+docs.microsoft.com
+
+

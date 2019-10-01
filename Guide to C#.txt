@@ -1,0 +1,50 @@
+9/30/2019
+A Tour of C#
+
+contains components, attributes, methods, events
+
+versioning influences - separate virtual and override modifiers, method
+	resolution, support for explicit interface member declarations
+
+keywords
+Object-Oriented programming -
+Component-oriented programming -
+Garbage collection - automatically reclaims memory occupied by unreachable
+	unused objects
+Exception Handling - provides a structured and extensible approach to error
+	detection and recovery
+Type-Safe Design - can't read uninitialized variables, or index arrays 
+	beyone their bounds or perform unchecked type casts
+virtual -used to modify a method, property, indexer, or event declaration and allow for it to be overridden in a derived class.
+override -  is required to extend or modify the abstract or virtual implementation of an inherited method, property, indexer, or event.
+
+
+Value types
+	Simple types (to box and unbox to object) int j = (int)objectname;
+		Signed integral: sbyte, short, int, long
+		Unsigned integral: byte, ushort, uint, ulong
+		Unicode characters: char
+		IEEE binary floating-point: float, double
+		High-precision decimal floating-point: decimal
+		Boolean: bool
+	Enum types
+		User-defined types of the form enum E {...}
+	Struct types 
+		User-defined types of the form struct S {...}
+	Nullable value types
+		Extensions of all other value types with a null value
+Reference types (can be treated as object)
+	Class types
+		Ultimate base class of all other types: object
+		Unicode strings: string
+		User-defined types of the form class C {...}
+	Interface types ???
+		User-defined types of the form interface I {...}
+	Array types
+		Single- and multi-dimensional, for example, int[] and int[,]
+	Delegate types ???
+		User-defined types of the form delegate int D(...)
+
+Statements
+
+Expressions
